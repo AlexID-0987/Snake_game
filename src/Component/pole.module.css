@@ -1,0 +1,12 @@
+.item1{
+    width: 500px;
+    height: 500px;
+    background-color: #61dafb;
+    margin: auto;
+    border: 2px #282c34 solid;
+    position: relative;
+}
+.item{
+    margin-top: 50px;
+
+}

@@ -1,0 +1,8 @@
+.item{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background-color:darkgreen;
+    border: 0.5px black solid;
+    z-index: 1;
+}

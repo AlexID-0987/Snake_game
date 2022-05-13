@@ -1,0 +1,1 @@
+ const RESET='RESET', STOP='STOP', BIG='BIG',SMALL='SMALL';
