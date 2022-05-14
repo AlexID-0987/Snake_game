@@ -7,8 +7,9 @@ function Pole(props){
     return(
         <div className={p1.item}>
            <div className={p1.item1}>
-               <Snake/>
+               <Snake state={props.state.food} random={props.random}/>
                <Food_comp state={props.state.food}/>
+
            </div>
         </div>
     )

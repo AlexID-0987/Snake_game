@@ -6,3 +6,10 @@
     position: absolute;
 z-index: 2;
 }
+.item2{
+    width: 2%;
+    height: 2%;
+    background-color: red;
+    position:absolute;
+
+}
