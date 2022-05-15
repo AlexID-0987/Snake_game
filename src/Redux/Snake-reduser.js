@@ -17,6 +17,12 @@ const Move=(state=initialState,action)=>{
             return {...state,x:state.x-action.payload}
         case 'UPDATE':
             return {...state, x:state.x-action.payload}
+        case 'UPDATE1':
+            return {...state, x:state.x+action.payload}
+        case 'UPDATE2':
+            return {...state, y:state.y-action.payload}
+        case 'UPDATE3':
+            return {...state, y:state.y+action.payload}
         case 'COUNTER':
             return {...state, count:state.count+action.payload}
         default:

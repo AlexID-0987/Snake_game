@@ -2,8 +2,6 @@ import  React from 'react'
 import f1 from './food_compon.module.css'
 function Food_comp(props){
     const style={
-       /* left:`${props.state[0]}%`,
-        top:`${props.state[1]}%`*/
         left:props.state[0],
         top:props.state[1]
     }
