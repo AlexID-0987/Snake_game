@@ -1,0 +1,21 @@
+.item2{
+    color:red;
+    font-size:30px;
+    font-weight: bold;
+}
+.item1 p{
+    color:darkolivegreen;
+    font-size: 30px;
+}
+.item{
+    display: grid;
+    grid-template-areas: '1fr 1fr';
+}
+.but{
+    width: 150px;
+    background-color: darkolivegreen;
+
+}
+.but a{
+    color: white;
+}

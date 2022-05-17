@@ -4,6 +4,7 @@ import Snake from "./Snake";
 import Food_comp from "./Food_comp";
 import {useSelector} from "react-redux";
 import Snakecomponent from "./Snakecomponent";
+import Informpole from "./Informpole";
 
 function Pole(props){
     let move1=useSelector(state=>state.move.count)
@@ -14,7 +15,10 @@ function Pole(props){
                <Food_comp state={props.state.food}/>
 
            </div>
-            <label className={p1.item2}>Counter: {move1!=0?move1:<label style={{color:'black'}}>{move1}</label>}</label>
+            <div className={p1.informpole}>
+                <Informpole move1={move1}/>
+
+            </div>
         </div>
     )
 }

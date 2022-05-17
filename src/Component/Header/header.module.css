@@ -1,0 +1,12 @@
+.item{
+    display: flex;
+}
+.text{
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+}
+.text1{
+    text-decoration: none;
+}
+

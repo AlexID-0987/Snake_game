@@ -8,10 +8,8 @@
 }
 .item{
     margin-top: 50px;
+    display: grid;
+    grid-template-areas:'1fr 1fr';
 
 }
-.item2{
-    color:red;
-    font-size:30px;
-    font-weight: bold;
-}
+

@@ -34,7 +34,13 @@ function Snakecomponent(props){
     function Vict(){
         if (cnakeX == props.state[0] && cnakeY == props.state[1]) {
             dispatch({type: 'COUNTER', payload: 1})
-            alert("OKEY!!!")
+            alert("You count increment +1 !")
+            let foodmin=1,foodmax=488;
+            let x=Math.floor((Math.random()*(foodmax-foodmin+1)+foodmin)/2)*2
+            let y=Math.floor((Math.random()*(foodmax-foodmin+1)+foodmin)/2)*2
+            props.state[0]=x
+            props.state[1]=y
+
         }
     }
     function ExitPole(){

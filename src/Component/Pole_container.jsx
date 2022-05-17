@@ -14,6 +14,7 @@ function  Pole_container(){
     }
     return(
         <div>
+            <h2>Snake Game</h2>
             <Pole random={getRandom()} state={state}/>
 
         </div>
